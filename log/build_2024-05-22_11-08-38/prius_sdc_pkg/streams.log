@@ -1,0 +1,24 @@
+[6.675s] Invoking command in '/home/louwee/sdc_ws/src/prius_sdc_pkg': PYTHONPATH=/home/louwee/sdc_ws/build/prius_sdc_pkg/prefix_override:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/louwee/sdc_ws/build/prius_sdc_pkg/build install --record /home/louwee/sdc_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed install_data
+[8.890s] running egg_info
+[8.900s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[8.904s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[8.907s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[8.909s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[8.910s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[9.219s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[9.225s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[9.226s] running build
+[9.227s] running build_py
+[9.230s] running install
+[9.241s] running install_lib
+[9.257s] byte-compiling /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/sdf_spawner.py to sdf_spawner.cpython-38.pyc
+[9.272s] running install_data
+[9.273s] running install_egg_info
+[9.284s] removing '/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[9.305s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[9.337s] running install_scripts
+[9.513s] Installing driver_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[9.517s] Installing recorder_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[9.521s] Installing spawner_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[9.523s] writing list of installed files to '/home/louwee/sdc_ws/build/prius_sdc_pkg/install.log'
+[9.705s] Invoked command in '/home/louwee/sdc_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/louwee/sdc_ws/build/prius_sdc_pkg/prefix_override:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/louwee/sdc_ws/build/prius_sdc_pkg/build install --record /home/louwee/sdc_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+driver_node = prius_sdc_pkg.driving_node:main
+recorder_node = prius_sdc_pkg.video_recorder:main
+spawner_node = prius_sdc_pkg.sdf_spawner:main
+

@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000725] (prius_sdc_pkg) JobQueued: {'identifier': 'prius_sdc_pkg', 'dependencies': OrderedDict()}
+[0.001099] (prius_sdc_pkg) JobStarted: {'identifier': 'prius_sdc_pkg'}
+[0.083401] (-) TimerEvent: {}
+[0.207812] (-) TimerEvent: {}
+[0.314586] (-) TimerEvent: {}
+[0.416230] (-) TimerEvent: {}
+[0.517308] (-) TimerEvent: {}
+[0.618545] (-) TimerEvent: {}
+[0.719645] (-) TimerEvent: {}
+[0.821326] (-) TimerEvent: {}
+[0.922990] (-) TimerEvent: {}
+[1.024137] (-) TimerEvent: {}
+[1.125558] (-) TimerEvent: {}
+[1.226673] (-) TimerEvent: {}
+[1.327885] (-) TimerEvent: {}
+[1.429688] (-) TimerEvent: {}
+[1.549419] (-) TimerEvent: {}
+[1.650430] (-) TimerEvent: {}
+[1.752874] (-) TimerEvent: {}
+[1.854604] (-) TimerEvent: {}
+[1.956313] (-) TimerEvent: {}
+[2.057502] (-) TimerEvent: {}
+[2.158720] (-) TimerEvent: {}
+[2.261550] (-) TimerEvent: {}
+[2.362747] (-) TimerEvent: {}
+[2.463889] (-) TimerEvent: {}
+[2.573208] (-) TimerEvent: {}
+[2.681656] (-) TimerEvent: {}
+[2.787933] (-) TimerEvent: {}
+[2.890392] (-) TimerEvent: {}
+[2.997117] (-) TimerEvent: {}
+[3.100886] (-) TimerEvent: {}
+[3.205410] (-) TimerEvent: {}
+[3.309856] (-) TimerEvent: {}
+[3.412842] (-) TimerEvent: {}
+[3.516770] (-) TimerEvent: {}
+[3.617937] (-) TimerEvent: {}
+[3.719355] (-) TimerEvent: {}
+[3.821070] (-) TimerEvent: {}
+[3.923114] (-) TimerEvent: {}
+[4.025508] (-) TimerEvent: {}
+[4.130624] (-) TimerEvent: {}
+[4.231917] (-) TimerEvent: {}
+[4.333490] (-) TimerEvent: {}
+[4.435596] (-) TimerEvent: {}
+[4.537456] (-) TimerEvent: {}
+[4.641625] (-) TimerEvent: {}
+[4.744765] (-) TimerEvent: {}
+[4.876784] (-) TimerEvent: {}
+[4.981342] (-) TimerEvent: {}
+[5.086320] (-) TimerEvent: {}
+[5.195728] (-) TimerEvent: {}
+[5.297283] (-) TimerEvent: {}
+[5.399059] (-) TimerEvent: {}
+[5.500626] (-) TimerEvent: {}
+[5.603476] (-) TimerEvent: {}
+[5.706170] (-) TimerEvent: {}
+[5.809805] (-) TimerEvent: {}
+[5.912319] (-) TimerEvent: {}
+[6.014109] (-) TimerEvent: {}
+[6.115829] (-) TimerEvent: {}
+[6.216913] (-) TimerEvent: {}
+[6.318213] (-) TimerEvent: {}
+[6.419734] (-) TimerEvent: {}
+[6.520988] (-) TimerEvent: {}
+[6.622290] (-) TimerEvent: {}
+[6.723329] (-) TimerEvent: {}
+[6.824462] (-) TimerEvent: {}
+[6.927623] (-) TimerEvent: {}
+[7.031709] (-) TimerEvent: {}
+[7.133133] (-) TimerEvent: {}
+[7.236811] (-) TimerEvent: {}
+[7.342198] (-) TimerEvent: {}
+[7.443330] (-) TimerEvent: {}
+[7.544489] (-) TimerEvent: {}
+[7.588211] (prius_sdc_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/prius_sdc_pkg', 'build', '--build-base', '/home/louwee/sdc_ws/build/prius_sdc_pkg/build', 'install', '--record', '/home/louwee/sdc_ws/build/prius_sdc_pkg/install.log', '--install-scripts', '$base/lib/prius_sdc_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/louwee/sdc_ws/src/prius_sdc_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'louwee', 'SSH_AGENT_PID': '2225', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/louwee', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2126', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/louwee/sdc_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'louwee', 'JOURNAL_STREAM': '8:56069', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'louwee', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/louwee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2264,unix/ubuntu:/tmp/.ICE-unix/2264', 'INVOCATION_ID': '4616757a8d414c4682fb12c9718dd9f2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ed0b4ac7_6a64_4df4_bbb7_cabf51f4eee8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.83', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/louwee/sdc_ws/install/prius_sdc_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/louwee/sdc_ws/build/prius_sdc_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/louwee/sdc_ws/build/prius_sdc_pkg/prefix_override:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.645349] (-) TimerEvent: {}
+[7.747626] (-) TimerEvent: {}
+[7.848976] (-) TimerEvent: {}
+[7.950194] (-) TimerEvent: {}
+[8.054106] (-) TimerEvent: {}
+[8.162294] (-) TimerEvent: {}
+[8.264204] (-) TimerEvent: {}
+[8.368960] (-) TimerEvent: {}
+[8.470479] (-) TimerEvent: {}
+[8.572856] (-) TimerEvent: {}
+[8.674351] (-) TimerEvent: {}
+[8.777820] (-) TimerEvent: {}
+[8.880355] (-) TimerEvent: {}
+[8.982676] (-) TimerEvent: {}
+[9.084112] (-) TimerEvent: {}
+[9.185371] (-) TimerEvent: {}
+[9.288485] (-) TimerEvent: {}
+[9.391723] (-) TimerEvent: {}
+[9.494144] (-) TimerEvent: {}
+[9.595301] (-) TimerEvent: {}
+[9.696953] (-) TimerEvent: {}
+[9.798197] (-) TimerEvent: {}
+[9.899268] (-) TimerEvent: {}
+[10.000720] (-) TimerEvent: {}
+[10.102120] (-) TimerEvent: {}
+[10.203150] (-) TimerEvent: {}
+[10.261443] (prius_sdc_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.270722] (prius_sdc_pkg) StdoutLine: {'line': b'writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO\n'}
+[10.272040] (prius_sdc_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt\n'}
+[10.272817] (prius_sdc_pkg) StdoutLine: {'line': b'writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt\n'}
+[10.278196] (prius_sdc_pkg) StdoutLine: {'line': b'writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt\n'}
+[10.279051] (prius_sdc_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt\n'}
+[10.305842] (-) TimerEvent: {}
+[10.409570] (-) TimerEvent: {}
+[10.510774] (-) TimerEvent: {}
+[10.614349] (-) TimerEvent: {}
+[10.617507] (prius_sdc_pkg) StdoutLine: {'line': b"reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'\n"}
+[10.628915] (prius_sdc_pkg) StdoutLine: {'line': b"writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'\n"}
+[10.633141] (prius_sdc_pkg) StdoutLine: {'line': b'running build\n'}
+[10.636329] (prius_sdc_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.638445] (prius_sdc_pkg) StdoutLine: {'line': b'copying prius_sdc_pkg/Drive_Bot.py -> /home/louwee/sdc_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg\n'}
+[10.658607] (prius_sdc_pkg) StdoutLine: {'line': b'running install\n'}
+[10.663409] (prius_sdc_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.677085] (prius_sdc_pkg) StdoutLine: {'line': b'copying /home/louwee/sdc_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Drive_Bot.py -> /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg\n'}
+[10.695713] (prius_sdc_pkg) StdoutLine: {'line': b'byte-compiling /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Drive_Bot.py to Drive_Bot.cpython-38.pyc\n'}
+[10.717452] (-) TimerEvent: {}
+[10.726804] (prius_sdc_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.731266] (prius_sdc_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.775335] (prius_sdc_pkg) StdoutLine: {'line': b"removing '/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.776379] (prius_sdc_pkg) StdoutLine: {'line': b'Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info\n'}
+[10.783471] (prius_sdc_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.817788] (-) TimerEvent: {}
+[10.919402] (-) TimerEvent: {}
+[10.983882] (prius_sdc_pkg) StdoutLine: {'line': b'Installing driver_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg\n'}
+[10.985522] (prius_sdc_pkg) StdoutLine: {'line': b'Installing recorder_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg\n'}
+[10.993443] (prius_sdc_pkg) StdoutLine: {'line': b'Installing spawner_node script to /home/louwee/sdc_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg\n'}
+[10.996404] (prius_sdc_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/louwee/sdc_ws/build/prius_sdc_pkg/install.log'\n"}
+[11.019760] (-) TimerEvent: {}
+[11.121787] (-) TimerEvent: {}
+[11.196397] (prius_sdc_pkg) CommandEnded: {'returncode': 0}
+[11.231577] (-) TimerEvent: {}
+[11.334651] (-) TimerEvent: {}
+[11.371161] (prius_sdc_pkg) JobEnded: {'identifier': 'prius_sdc_pkg', 'rc': 0}
+[11.378284] (-) EventReactorShutdown: {}

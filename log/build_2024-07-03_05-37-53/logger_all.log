@@ -1,0 +1,276 @@
+[2.454s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.458s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3ce46616a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3ce46616a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f3ce45a5580>)
+[4.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/louwee/sdc_ws'
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.380s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.387s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.387s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'ignore'
+[4.388s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'ignore_ament_install'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['colcon_pkg']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'colcon_pkg'
+[4.390s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['colcon_meta']
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'colcon_meta'
+[4.391s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['ros']
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'ros'
+[4.392s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['cmake', 'python']
+[4.393s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'cmake'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'python'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extensions ['python_setup_py']
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg) by extension 'python_setup_py'
+[4.395s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'ignore'
+[4.396s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'ignore_ament_install'
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['colcon_pkg']
+[4.397s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'colcon_pkg'
+[4.398s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['colcon_meta']
+[4.398s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'colcon_meta'
+[4.399s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['ros']
+[4.399s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'ros'
+[4.400s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['cmake', 'python']
+[4.400s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'cmake'
+[4.400s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'python'
+[4.402s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extensions ['python_setup_py']
+[4.403s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg) by extension 'python_setup_py'
+[4.404s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['ignore', 'ignore_ament_install']
+[4.405s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'ignore'
+[4.406s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'ignore_ament_install'
+[4.407s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['colcon_pkg']
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'colcon_pkg'
+[4.408s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['colcon_meta']
+[4.409s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'colcon_meta'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['ros']
+[4.411s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'ros'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['cmake', 'python']
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'cmake'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'python'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extensions ['python_setup_py']
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data) by extension 'python_setup_py'
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['ignore', 'ignore_ament_install']
+[4.416s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'ignore'
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'ignore_ament_install'
+[4.417s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['colcon_pkg']
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'colcon_pkg'
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['colcon_meta']
+[4.418s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'colcon_meta'
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['ros']
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'ros'
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['cmake', 'python']
+[4.420s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'cmake'
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'python'
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extensions ['python_setup_py']
+[4.421s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset) by extension 'python_setup_py'
+[4.422s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['ignore', 'ignore_ament_install']
+[4.423s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'ignore'
+[4.424s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'ignore_ament_install'
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['colcon_pkg']
+[4.426s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'colcon_pkg'
+[4.427s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['colcon_meta']
+[4.428s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'colcon_meta'
+[4.428s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['ros']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'ros'
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['cmake', 'python']
+[4.430s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'cmake'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'python'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extensions ['python_setup_py']
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/0) by extension 'python_setup_py'
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['ignore', 'ignore_ament_install']
+[4.434s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'ignore'
+[4.434s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'ignore_ament_install'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['colcon_pkg']
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'colcon_pkg'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['colcon_meta']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'colcon_meta'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['ros']
+[4.437s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'ros'
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['cmake', 'python']
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'cmake'
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'python'
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extensions ['python_setup_py']
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/1) by extension 'python_setup_py'
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['ignore', 'ignore_ament_install']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'ignore'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'ignore_ament_install'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['colcon_pkg']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'colcon_pkg'
+[4.443s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['colcon_meta']
+[4.443s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'colcon_meta'
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['ros']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'ros'
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['cmake', 'python']
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'cmake'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'python'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extensions ['python_setup_py']
+[4.447s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/2) by extension 'python_setup_py'
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['ignore', 'ignore_ament_install']
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'ignore'
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'ignore_ament_install'
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['colcon_pkg']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'colcon_pkg'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['colcon_meta']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'colcon_meta'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['ros']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'ros'
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['cmake', 'python']
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'cmake'
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'python'
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extensions ['python_setup_py']
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/3) by extension 'python_setup_py'
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['ignore', 'ignore_ament_install']
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'ignore'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'ignore_ament_install'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['colcon_pkg']
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'colcon_pkg'
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['colcon_meta']
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'colcon_meta'
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['ros']
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'ros'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['cmake', 'python']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'cmake'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'python'
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extensions ['python_setup_py']
+[4.464s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/4) by extension 'python_setup_py'
+[4.465s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['ignore', 'ignore_ament_install']
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'ignore'
+[4.466s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'ignore_ament_install'
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['colcon_pkg']
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'colcon_pkg'
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['colcon_meta']
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'colcon_meta'
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['ros']
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'ros'
+[4.471s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['cmake', 'python']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'cmake'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'python'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extensions ['python_setup_py']
+[4.473s] Level 1:colcon.colcon_core.package_identification:_identify(prius_sdc_pkg/prius_sdc_pkg/data/live_dataset/5) by extension 'python_setup_py'
+[4.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.478s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.478s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.479s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[4.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[4.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extension 'ignore'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extension 'ignore_ament_install'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extensions ['colcon_pkg']
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extension 'colcon_pkg'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extensions ['colcon_meta']
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extension 'colcon_meta'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extensions ['ros']
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/prius_sdc_pkg) by extension 'ros'
+[4.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/prius_sdc_pkg' with type 'ros.ament_python' and name 'prius_sdc_pkg'
+[4.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.695s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/louwee/sdc_ws/install
+[4.709s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[4.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.605s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_args' from command line to 'None'
+[5.606s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_target' from command line to 'None'
+[5.607s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.607s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[5.607s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[5.607s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[5.608s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[5.608s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[5.608s] Level 5:colcon.colcon_core.verb:set package 'prius_sdc_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.609s] DEBUG:colcon.colcon_core.verb:Building package 'prius_sdc_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/sdc_ws/build/prius_sdc_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/sdc_ws/install/prius_sdc_pkg', 'merge_install': False, 'path': '/home/louwee/sdc_ws/src/prius_sdc_pkg', 'symlink_install': False, 'test_result_base': None}
+[5.610s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.622s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/louwee/sdc_ws/src/prius_sdc_pkg' with build type 'ament_python'
+[5.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('prius_sdc_pkg', 'ament_prefix_path')
+[5.648s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/ament_prefix_path.ps1'
+[5.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/ament_prefix_path.dsv'
+[5.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/ament_prefix_path.sh'
+[5.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/louwee/sdc_ws/src/prius_sdc_pkg'
+[8.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/sdc_ws/src/prius_sdc_pkg': PYTHONPATH=/home/louwee/sdc_ws/build/prius_sdc_pkg/prefix_override:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/louwee/sdc_ws/build/prius_sdc_pkg/build install --record /home/louwee/sdc_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed install_data
+[16.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/sdc_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/louwee/sdc_ws/build/prius_sdc_pkg/prefix_override:/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/louwee/sdc_ws/build/prius_sdc_pkg/build install --record /home/louwee/sdc_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed install_data
+[16.392s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg' for CMake module files
+[16.407s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg' for CMake config files
+[16.420s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg/lib'
+[16.422s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg/bin'
+[16.422s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/pkgconfig/prius_sdc_pkg.pc'
+[16.424s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg/lib/python3.8/site-packages'
+[16.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('prius_sdc_pkg', 'pythonpath')
+[16.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/pythonpath.ps1'
+[16.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/pythonpath.dsv'
+[16.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/hook/pythonpath.sh'
+[16.459s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/sdc_ws/install/prius_sdc_pkg/bin'
+[16.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prius_sdc_pkg)
+[16.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/package.ps1'
+[16.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/package.dsv'
+[16.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/package.sh'
+[16.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/package.bash'
+[16.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/sdc_ws/install/prius_sdc_pkg/share/prius_sdc_pkg/package.zsh'
+[16.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/sdc_ws/install/prius_sdc_pkg/share/colcon-core/packages/prius_sdc_pkg)
+[16.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.534s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.541s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.675s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/sdc_ws/install/local_setup.ps1'
+[16.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louwee/sdc_ws/install/_local_setup_util_ps1.py'
+[16.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/sdc_ws/install/setup.ps1'
+[16.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/sdc_ws/install/local_setup.sh'
+[16.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louwee/sdc_ws/install/_local_setup_util_sh.py'
+[16.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/sdc_ws/install/setup.sh'
+[16.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/sdc_ws/install/local_setup.bash'
+[16.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/sdc_ws/install/setup.bash'
+[16.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/sdc_ws/install/local_setup.zsh'
+[16.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/sdc_ws/install/setup.zsh'
